@@ -8,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class Exercice1Component implements OnInit {
   public result: number = 0;
 
-  constructor() {}
-
   ngOnInit() {}
+  modifCompteur(compteur: number) {
+    this.result = compteur;
+  }
 }
